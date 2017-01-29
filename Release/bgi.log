@@ -1,0 +1,149 @@
+﻿Build started 12/4/2014 11:36:33 PM.
+     1>Project "C:\Users\AeronTech\Desktop\Game4\bgi\bgi.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\bgi.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\bgi.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt bgiout.cxx dibutil.cxx drawing.cxx file.cxx misc.cxx mouse.cxx palette.cxx main.cxx scoreboard.cpp source.cpp text.cxx winbgi.cxx winthread.cxx
+         bgiout.cxx
+         dibutil.cxx
+         drawing.cxx
+     1>drawing.cxx(819): warning C4101: 'tries' : unreferenced local variable
+     1>drawing.cxx(859): warning C4101: 'answer' : unreferenced local variable
+     1>drawing.cxx(1110): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : see declaration of 'strcat'
+         file.cxx
+         misc.cxx
+         mouse.cxx
+         palette.cxx
+         main.cxx
+     1>main.cxx(189): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>main.cxx(189): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>main.cxx(192): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>main.cxx(192): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>main.cxx(195): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>main.cxx(195): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>main.cxx(195): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>main.cxx(195): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>main.cxx(333): warning C4805: '==' : unsafe mix of type 'int' and type 'bool' in operation
+     1>main.cxx(367): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>main.cxx(388): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>main.cxx(397): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         scoreboard.cpp
+     1>scoreboard.cpp(27): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>scoreboard.cpp(53): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : see declaration of 'strcat'
+     1>scoreboard.cpp(67): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>scoreboard.cpp(69): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>scoreboard.cpp(76): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>scoreboard.cpp(80): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>scoreboard.cpp(90): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
+     1>scoreboard.cpp(128): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>scoreboard.cpp(130): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+         source.cpp
+     1>source.cpp(123): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>source.cpp(123): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>source.cpp(123): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>source.cpp(123): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>source.cpp(123): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>source.cpp(123): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>source.cpp(123): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>source.cpp(123): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>source.cpp(124): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>source.cpp(124): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>source.cpp(124): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>source.cpp(124): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>source.cpp(124): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>source.cpp(124): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>source.cpp(124): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>source.cpp(124): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>source.cpp(200): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>source.cpp(200): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>source.cpp(200): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>source.cpp(200): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>source.cpp(200): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>source.cpp(200): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>source.cpp(200): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>source.cpp(200): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>source.cpp(204): warning C4554: '<<' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>source.cpp(527): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>source.cpp(529): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>source.cpp(533): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
+     1>source.cpp(535): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
+     1>source.cpp(536): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source.cpp(538): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source.cpp(770): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>source.cpp(770): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>source.cpp(771): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>source.cpp(771): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>source.cpp(772): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>source.cpp(772): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>source.cpp(773): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>source.cpp(773): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>source.cpp(774): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>source.cpp(774): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>source.cpp(794): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>source.cpp(804): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>source.cpp(804): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>source.cpp(972): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>source.cpp(981): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>source.cpp(981): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>source.cpp(989): warning C4554: '<<' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>source.cpp(992): warning C4554: '<<' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>source.cpp(1098): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>source.cpp(1098): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>source.cpp(1114): warning C4554: '<<' : check operator precedence for possible error; use parentheses to clarify precedence
+         text.cxx
+     1>text.cxx(348): warning C4018: '<' : signed/unsigned mismatch
+         winbgi.cxx
+     1>winbgi.cxx(81): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>winbgi.cxx(134): warning C4101: 'actual_color' : unreferenced local variable
+     1>winbgi.cxx(133): warning C4101: 'bgi_color' : unreferenced local variable
+     1>winbgi.cxx(494): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+         winthread.cxx
+     1>winthread.cxx(320): warning C4101: 'i' : unreferenced local variable
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\AeronTech\Desktop\Game4\bgi\Release\bgi.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\bgi.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\AeronTech\Desktop\Game4\bgi\Release\bgi.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\AeronTech\Desktop\Game4\bgi\Release\bgi.lib" /MACHINE:X86 Release\bgiout.obj
+         Release\dibutil.obj
+         Release\drawing.obj
+         Release\file.obj
+         Release\misc.obj
+         Release\mouse.obj
+         Release\palette.obj
+         Release\main.obj
+         Release\scoreboard.obj
+         Release\source.obj
+         Release\text.obj
+         Release\winbgi.obj
+         Release\winthread.obj
+     1>LINK : warning LNK4031: no subsystem specified; CONSOLE assumed
+         Generating code
+     1>c:\users\aerontech\desktop\game4\bgi\source.cpp(668): warning C4715: 'DOO' : not all control paths return a value
+         Finished generating code
+         bgi.vcxproj -> C:\Users\AeronTech\Desktop\Game4\bgi\Release\bgi.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\AeronTech\Desktop\Game4\bgi\Release\bgi.exe;#1" /manifest Release\bgi.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\bgi.unsuccessfulbuild".
+         Touching "Release\bgi.lastbuildstate".
+     1>Done Building Project "C:\Users\AeronTech\Desktop\Game4\bgi\bgi.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.92
